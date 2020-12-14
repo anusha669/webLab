@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LMV and reverse of string</title>
+    <style>
+    input{
+        width : 300px;
+        height: 80px;
+    }
+    </style>
+</head>
+<body>
+    <div align="center">
+            <input type="text" id="word" placeholder="Enter string">
+            <button type="submit" onclick="alert(LeftMostVowel(document.getElementById('word').value))"> Left Most Vowel</button>        
+    </div>
+    <div align="center">
+            <input type="text" id="numerical" placeholder="Enter number">
+            <button type="submit" onclick="alert(reverse(document.getElementById('numerical').value))"> Reverse number</button>        
+    </div>
+</body>
+    <script>
+        function LeftMostVowel(str)
+        {
+            for(let i=0;i<str.length;i++)
+            {
+                if(str.charAt(i) == 'a' || str.charAt(i) == 'e'|| str.charAt(i) == 'i'|| str.charAt(i)== 'o'||str.charAt(i)== 'u'){
+                    return ("Left most vowel is at index "+ i); 
+                }
+            }
+            return ("No vowels found");
+        }
+        function reverse(num)
+        {
+            if(isNaN(num))
+                return("Entered string is not a number");
+            num = parseInt(num);
+            rnum = 0;
+            while(num != 0)
+            {
+                rnum = rnum*10 + num % 10;
+                num = Math.floor(num/10);
+            }
+            return("Reverse : "+ rnum);
+        }
+    </script>
+</html>
