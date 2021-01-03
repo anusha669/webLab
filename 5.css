@@ -1,0 +1,42 @@
+/* 4mt17is007 anusha */
+
+usn{
+    display: block;
+    margin-left: 10px;
+    font-size: 14pt;
+    color: blue(150, 150, 35);
+}
+name{
+    display: block;
+    margin-left: 10px;
+    font-size: 14pt;
+    color: red;
+}
+branch{
+    display: block;
+    margin-left: 10px;
+    font-size: 14pt;
+    color: blueviolet;
+}
+college{
+    display: block;
+    margin-left: 10px;
+    font-size: 14pt;
+    color: blue;
+}
+year{
+    display: block;
+    margin-left: 10px;
+    font-size: 14pt;
+    color: red;
+}
+email{
+    display: block;
+    margin-left: 10px;
+    font-size: 14pt;
+    color:chocolate;
+}
+student{
+    padding: 5px;
+    margin-top:10px;
+}

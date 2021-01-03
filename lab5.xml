@@ -1,0 +1,27 @@
+<?xml-stylesheet type="text/css" href="5.css" ?>
+    <studentdata>
+        <student>
+            <usn>USN : 4MT17IS090</usn>
+            <name>Tom</name>
+            <college>Mangalore Institute of Technology and Engineering</college>
+            <branch>Information Science and Engineering</branch>
+            <year>2020</year>
+            <email>tom@gmail.com</email>
+        </student>
+        <student>
+            <usn>USN : 4MT17IS091</usn>
+            <name>Dick</name>
+            <college>Mangalore Institute of Technology and Engineering</college>
+            <branch>Information Science and Engineering</branch>
+            <year>2020</year>
+            <email>dick@gmail.com</email>
+        </student>
+        <student>
+            <usn>USN : 4MT17IS092</usn>
+            <name>Harry</name>
+            <college>Mangalore Institute of Technology and Engineering</college>
+            <branch>Information Science and Engineering</branch>
+            <year>2020</year>
+            <email>harry@gmail.com</email>
+        </student>
+    </studentdata>
